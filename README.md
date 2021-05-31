@@ -5,7 +5,7 @@
 
 ## General info
 This project is a Clock App that show actual time based by your local machine
-everythink is based on javascript Date object
+everything is based on javascript Date object
 	
 ## Technologies
 Project is created with:
