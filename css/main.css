@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.container, .container .main {
+  height: 50vh;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.container .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: transparent;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  font-size: 2.4rem;
+}
+
+.container .main .time, .container .main .quote {
+  color: white;
+  padding: 1.2rem;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+.container .main .quote {
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 516px) {
+  .container .main .quote {
+    padding: 3rem;
+  }
+}
+
+@media screen and (min-width: 706px) {
+  .container, .container .main, .container .main {
+    width: 70%;
+    margin: 0 auto;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+/*# sourceMappingURL=main.css.map */
